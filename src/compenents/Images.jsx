@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import PixabayContext from '../context/pixabayContext'
+import Context from '../context/Context'
 import './Image.css'
 
 const Images = () => {
-    const { imageData } = useContext(PixabayContext);
+    const { imageData } = useContext(Context);
 
     return (
         <div className="container my-5">
