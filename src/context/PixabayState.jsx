@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import PixabayContext from './pixabayContext'
+import PixabayContext from './pixabayContext';
 
 const PixabayState = (props) => {
     const [imageData, setImageData] = useState([]);
